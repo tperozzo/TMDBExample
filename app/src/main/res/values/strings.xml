@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TMDB Example</string>
+    <string name="detail">Detail</string>
+    <string name="movie_list">Movie List</string>
+    <string name="overview">Overview</string>
+    <string name="vote_average">Rating:</string>
+    <string name="vote_count">Vote count:</string>
+    <string name="title">Title</string>
+    <string name="no_connection">No connection!</string>
+    <string name="no_connection_load_image">No connection to download an image!</string>
+
+</resources>

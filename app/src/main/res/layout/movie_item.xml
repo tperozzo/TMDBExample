@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/movie_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="72dp"
+        android:layout_height="96dp">
+
+        <ImageView
+            android:id="@+id/poster_image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey"
+            android:layout_margin="8dp"
+            android:scaleType="center"/>
+
+        <ProgressBar
+            android:id="@+id/poster_image_pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:indeterminate="true"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Name"
+            android:textColor="@color/primary_text_default_material_light"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"/>
+
+        <TextView
+            android:id="@+id/year_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Year"
+            android:textColor="@color/primary_text_default_material_light"
+            android:textSize="14sp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"/>
+    </LinearLayout>
+</LinearLayout>
